@@ -1,0 +1,264 @@
+RecursiveScriptModule(
+  original_name=YoloBody
+  (conv1): RecursiveScriptModule(
+    original_name=BasicConv
+    (conv): RecursiveScriptModule(
+      original_name=Sequential
+      (0): RecursiveScriptModule(original_name=Conv2d)
+      (1): RecursiveScriptModule(original_name=Identity)
+    )
+    (activation): RecursiveScriptModule(original_name=LeakyReLU)
+  )
+  (conv2): RecursiveScriptModule(
+    original_name=BasicConv
+    (conv): RecursiveScriptModule(
+      original_name=Sequential
+      (0): RecursiveScriptModule(original_name=Conv2d)
+      (1): RecursiveScriptModule(original_name=Identity)
+    )
+    (activation): RecursiveScriptModule(original_name=LeakyReLU)
+  )
+  (resblock_body1): RecursiveScriptModule(
+    original_name=Resblock_body
+    (conv1): RecursiveScriptModule(
+      original_name=BasicConv
+      (conv): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Conv2d)
+        (1): RecursiveScriptModule(original_name=Identity)
+      )
+      (activation): RecursiveScriptModule(original_name=LeakyReLU)
+    )
+    (conv2): RecursiveScriptModule(
+      original_name=BasicConv
+      (conv): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Conv2d)
+        (1): RecursiveScriptModule(original_name=Identity)
+      )
+      (activation): RecursiveScriptModule(original_name=LeakyReLU)
+    )
+    (conv3): RecursiveScriptModule(
+      original_name=BasicConv
+      (conv): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Conv2d)
+        (1): RecursiveScriptModule(original_name=Identity)
+      )
+      (activation): RecursiveScriptModule(original_name=LeakyReLU)
+    )
+    (conv4): RecursiveScriptModule(
+      original_name=BasicConv
+      (conv): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Conv2d)
+        (1): RecursiveScriptModule(original_name=Identity)
+      )
+      (activation): RecursiveScriptModule(original_name=LeakyReLU)
+    )
+    (conv5): RecursiveScriptModule(
+      original_name=BasicConv
+      (conv): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Conv2d)
+        (1): RecursiveScriptModule(original_name=Identity)
+      )
+      (activation): RecursiveScriptModule(original_name=LeakyReLU)
+    )
+    (maxpool): RecursiveScriptModule(original_name=MaxPool2d)
+    (routeq0): RecursiveScriptModule(
+      original_name=QFunctional
+      (activation_post_process): RecursiveScriptModule(original_name=Identity)
+    )
+    (routeq1): RecursiveScriptModule(
+      original_name=QFunctional
+      (activation_post_process): RecursiveScriptModule(original_name=Identity)
+    )
+  )
+  (resblock_body2): RecursiveScriptModule(
+    original_name=Resblock_body
+    (conv1): RecursiveScriptModule(
+      original_name=BasicConv
+      (conv): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Conv2d)
+        (1): RecursiveScriptModule(original_name=Identity)
+      )
+      (activation): RecursiveScriptModule(original_name=LeakyReLU)
+    )
+    (conv2): RecursiveScriptModule(
+      original_name=BasicConv
+      (conv): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Conv2d)
+        (1): RecursiveScriptModule(original_name=Identity)
+      )
+      (activation): RecursiveScriptModule(original_name=LeakyReLU)
+    )
+    (conv3): RecursiveScriptModule(
+      original_name=BasicConv
+      (conv): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Conv2d)
+        (1): RecursiveScriptModule(original_name=Identity)
+      )
+      (activation): RecursiveScriptModule(original_name=LeakyReLU)
+    )
+    (conv4): RecursiveScriptModule(
+      original_name=BasicConv
+      (conv): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Conv2d)
+        (1): RecursiveScriptModule(original_name=Identity)
+      )
+      (activation): RecursiveScriptModule(original_name=LeakyReLU)
+    )
+    (conv5): RecursiveScriptModule(
+      original_name=BasicConv
+      (conv): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Conv2d)
+        (1): RecursiveScriptModule(original_name=Identity)
+      )
+      (activation): RecursiveScriptModule(original_name=LeakyReLU)
+    )
+    (maxpool): RecursiveScriptModule(original_name=MaxPool2d)
+    (routeq0): RecursiveScriptModule(
+      original_name=QFunctional
+      (activation_post_process): RecursiveScriptModule(original_name=Identity)
+    )
+    (routeq1): RecursiveScriptModule(
+      original_name=QFunctional
+      (activation_post_process): RecursiveScriptModule(original_name=Identity)
+    )
+  )
+  (resblock_body3): RecursiveScriptModule(
+    original_name=Resblock_body
+    (conv1): RecursiveScriptModule(
+      original_name=BasicConv
+      (conv): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Conv2d)
+        (1): RecursiveScriptModule(original_name=Identity)
+      )
+      (activation): RecursiveScriptModule(original_name=LeakyReLU)
+    )
+    (conv2): RecursiveScriptModule(
+      original_name=BasicConv
+      (conv): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Conv2d)
+        (1): RecursiveScriptModule(original_name=Identity)
+      )
+      (activation): RecursiveScriptModule(original_name=LeakyReLU)
+    )
+    (conv3): RecursiveScriptModule(
+      original_name=BasicConv
+      (conv): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Conv2d)
+        (1): RecursiveScriptModule(original_name=Identity)
+      )
+      (activation): RecursiveScriptModule(original_name=LeakyReLU)
+    )
+    (conv4): RecursiveScriptModule(
+      original_name=BasicConv
+      (conv): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Conv2d)
+        (1): RecursiveScriptModule(original_name=Identity)
+      )
+      (activation): RecursiveScriptModule(original_name=LeakyReLU)
+    )
+    (conv5): RecursiveScriptModule(
+      original_name=BasicConv
+      (conv): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Conv2d)
+        (1): RecursiveScriptModule(original_name=Identity)
+      )
+      (activation): RecursiveScriptModule(original_name=LeakyReLU)
+    )
+    (maxpool): RecursiveScriptModule(original_name=MaxPool2d)
+    (routeq0): RecursiveScriptModule(
+      original_name=QFunctional
+      (activation_post_process): RecursiveScriptModule(original_name=Identity)
+    )
+    (routeq1): RecursiveScriptModule(
+      original_name=QFunctional
+      (activation_post_process): RecursiveScriptModule(original_name=Identity)
+    )
+  )
+  (conv3): RecursiveScriptModule(
+    original_name=BasicConv
+    (conv): RecursiveScriptModule(
+      original_name=Sequential
+      (0): RecursiveScriptModule(original_name=Conv2d)
+      (1): RecursiveScriptModule(original_name=Identity)
+    )
+    (activation): RecursiveScriptModule(original_name=LeakyReLU)
+  )
+  (conv_for_P5): RecursiveScriptModule(
+    original_name=BasicConv
+    (conv): RecursiveScriptModule(
+      original_name=Sequential
+      (0): RecursiveScriptModule(original_name=Conv2d)
+      (1): RecursiveScriptModule(original_name=Identity)
+    )
+    (activation): RecursiveScriptModule(original_name=LeakyReLU)
+  )
+  (yolo_headP5): RecursiveScriptModule(
+    original_name=yolo_head
+    (yolo_head): RecursiveScriptModule(
+      original_name=Sequential
+      (0): RecursiveScriptModule(
+        original_name=BasicConv
+        (conv): RecursiveScriptModule(
+          original_name=Sequential
+          (0): RecursiveScriptModule(original_name=Conv2d)
+          (1): RecursiveScriptModule(original_name=Identity)
+        )
+        (activation): RecursiveScriptModule(original_name=LeakyReLU)
+      )
+      (1): RecursiveScriptModule(original_name=Conv2d)
+    )
+  )
+  (upsample): RecursiveScriptModule(
+    original_name=Upsample
+    (upsample): RecursiveScriptModule(
+      original_name=Sequential
+      (0): RecursiveScriptModule(
+        original_name=BasicConv
+        (conv): RecursiveScriptModule(
+          original_name=Sequential
+          (0): RecursiveScriptModule(original_name=Conv2d)
+          (1): RecursiveScriptModule(original_name=Identity)
+        )
+        (activation): RecursiveScriptModule(original_name=LeakyReLU)
+      )
+      (1): RecursiveScriptModule(original_name=Upsample)
+    )
+  )
+  (yolo_headP4): RecursiveScriptModule(
+    original_name=yolo_head
+    (yolo_head): RecursiveScriptModule(
+      original_name=Sequential
+      (0): RecursiveScriptModule(
+        original_name=BasicConv
+        (conv): RecursiveScriptModule(
+          original_name=Sequential
+          (0): RecursiveScriptModule(original_name=Conv2d)
+          (1): RecursiveScriptModule(original_name=Identity)
+        )
+        (activation): RecursiveScriptModule(original_name=LeakyReLU)
+      )
+      (1): RecursiveScriptModule(original_name=Conv2d)
+    )
+  )
+  (quant): RecursiveScriptModule(original_name=Quantize)
+  (dequant): RecursiveScriptModule(original_name=DeQuantize)
+  (route0): RecursiveScriptModule(
+    original_name=QFunctional
+    (activation_post_process): RecursiveScriptModule(original_name=Identity)
+  )
+)

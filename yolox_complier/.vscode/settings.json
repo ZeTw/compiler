@@ -1,0 +1,12 @@
+{   
+    "terminal.integrated.env.linux": {"PYTHONPATH":"PYTHONPATH=/home/e7/TVM/tvm/python","TVM_HOME":"/home/e7/TVM/tvm"},
+    "python.analysis.extraPaths": [
+        "/home/e7/TVM/tvm/python/tvm" // 自定义模块的相对路径，可多个，可绝对路径　　
+       ],
+    "files.associations": {
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp"
+    },
+    "code-runner.fileDirectoryAsCwd": true
+}
